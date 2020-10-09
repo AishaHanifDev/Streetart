@@ -1,0 +1,171 @@
+*{
+font-family:"Raleway",arial,sans-serif;
+   margin:0px;
+   padding-top:0px;
+}
+.top{
+	padding-top:20px;
+	padding-bottom:20px;
+}
+.container{
+	width:100%;
+}
+.right{
+	font-size:24px;
+	background-color:white;
+	color:#000;
+	margin-left:15px;
+	cursor:pointer;
+	display:block;
+	border:none;
+	padding:15px;
+	opacity:0.8;
+}
+
+.left{
+	padding:15px;
+	font-size:25px;
+	float:right;
+	margin-right:15px;
+	background-color:white;
+	color:black;
+	cursor:pointer;
+	display:block;
+	border:none;
+	opacity:0.8;
+}
+.left:hover{
+	background-color:lightgrey;
+	color:black;
+}
+.right:hover{
+     background-color:lightgrey;
+     color:black;
+}
+.photo,
+.picture,
+.pic,
+.man,
+.heart{
+	width:100%;
+}
+.streetart,
+.streetart2,
+.streetart3,
+.streetart4,
+.streetart5{
+	width:50%;
+}
+.streetart,
+.streetart2,
+.streetart5{
+	float:left;
+}
+.streetart3,
+.streetart4{
+	float:right;
+}
+.center{
+       font-size:25px;
+       margin:auto;
+       display:block;
+       width:9%;
+       padding-bottom:30px;  
+   }   
+.boy{
+	padding-top:30px;
+	margin:auto;
+	display:block;
+	width:25%;
+}
+.para{
+	padding-top:40px;
+	margin:auto;
+	display:block;
+	width:60%;
+	line-height:1.5;
+	font-size:15px;
+	color:#000000;
+}
+.mid{
+	background-color:#f1f1f1;
+  	width:100%;
+  }
+.me{
+	text-align:center;
+	color:#E91E63;
+	padding-bottom:20px;
+	font-size:18px;
+	padding-top:30px;
+}
+.name,
+.Email,
+.Message,
+.end{
+	text-align:center;
+}
+.end{
+     padding-bottom:20%;
+}
+.end a{
+   color:black;
+   padding-top:30px;
+}
+.end :hover{
+     color:lightgreen;
+}
+.Send {
+	padding-top:15px;
+	padding-bottom:8px; 
+    color:black;
+    margin-top:50px;
+    cursor:pointer;
+    margin:auto;
+    display:block;
+    width:61%;
+    background-color:black;
+    color:white;
+    border:none;
+    text-align:center;
+    opacity:0.7;
+    font-size:15px;
+}
+.Send:hover{ 
+    background-color:#616161;
+    color:black;
+}
+.form{
+	width:100%;
+}
+.name{
+	  margin:auto;
+	  display:block;
+     width:78%;
+     text-align:center;
+     padding-bottom:20px;
+
+}
+.Email{
+     margin:auto;
+	  display:block;
+      width:78%;
+      text-align:center;
+      padding-bottom:20px;
+
+}
+.Message{
+      margin:auto;
+	  display:block;
+      width:78%;
+      text-align:center;
+      padding-bottom:20px;
+
+}
+
+
+
+}
+
+
+
+
