@@ -116,13 +116,12 @@ font-family:"Raleway",Arial,sans-serif;
    padding-top:30px;
 }
 .end :hover{
-     color:lightgreen;
+     color:green;
 }
 .Send {
-	padding-top:15px;
-	padding-bottom:8px; 
+	padding-bottom:20px; 
     color:black;
-    margin-top:50px;
+    padding-top:10px;
     cursor:pointer;
     margin:auto;
     display:block;
@@ -130,7 +129,6 @@ font-family:"Raleway",Arial,sans-serif;
     background-color:black;
     color:white;
     border:none;
-    text-align:center;
     opacity:0.7;
     font-size:15px;
 }
@@ -146,29 +144,34 @@ font-family:"Raleway",Arial,sans-serif;
 	  display:block;
      width:78%;
      text-align:center;
-     padding-bottom:20px;
+     padding-bottom:25px;
+     margin-top:5px;
 
 }
 .Email{
      margin:auto;
+     margin-top:5px;
 	  display:block;
       width:78%;
       text-align:center;
-      padding-bottom:20px;
+      padding-bottom:25px;
+      
+
 
 }
 .Message{
-      margin:auto;
+	  margin:auto;
+	  margin-top:5px;
 	  display:block;
       width:78%;
       text-align:center;
-      padding-bottom:20px;
+      padding-bottom:25px;
 
 }
 
 
 
-}
+
 
 
 
