@@ -70,14 +70,14 @@ font-family:"Raleway",Arial,sans-serif;
 }
 .center{
        font-size:29px;
-       width:10%;
+       width:100%;
        position:relative;
        top:70px;
        padding-bottom:50px;
+       text-align:center;
        text-decoration:none;
        border:none;
-/*       margin:10px 0px;
-*/ }   
+ }   
 .boy{
     margin:auto;
     display:block;
