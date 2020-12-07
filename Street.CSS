@@ -1,4 +1,4 @@
-*{
+body{
 font-family:"Raleway",Arial,sans-serif;
    margin:0px;
    padding-top:0px;
@@ -11,6 +11,7 @@ font-family:"Raleway",Arial,sans-serif;
 	width:100%;
 }
 .right{
+	width:25%;
 	font-size:24px;
 	background-color:white;
 	color:#000;
@@ -19,7 +20,8 @@ font-family:"Raleway",Arial,sans-serif;
 	display:block;
 	border:none;
 	padding:15px;
-	opacity:0.8;
+    text-decoration:none;
+
 }
 
 .left{
@@ -32,7 +34,8 @@ font-family:"Raleway",Arial,sans-serif;
 	cursor:pointer;
 	display:block;
 	border:none;
-	opacity:0.8;
+/*	opacity:0.8;
+*/	text-decoration:none;
 }
 .left:hover{
 	background-color:lightgrey;
@@ -67,18 +70,23 @@ font-family:"Raleway",Arial,sans-serif;
 }
 .center{
        font-size:29px;
-       margin:auto;
-       width:5%;
+       width:10%;
        position:relative;
        top:70px;
        padding-bottom:50px;
- }   
+       text-decoration:none;
+       border:none;
+/*       margin:10px 0px;
+*/ }   
 .boy{
     margin:auto;
     display:block;
 	width:23%;
 	padding-bottom:20px;
 	padding-top:70px;
+}
+.ABOUT{
+  background-color:#f1f1f1;
 }
 .para{
 	padding-top:40px;
@@ -138,7 +146,6 @@ font-family:"Raleway",Arial,sans-serif;
     background-color:darkgrey;
     color:#000;
 }
-
 .name,
 .Email,
 .Message{
@@ -150,10 +157,9 @@ font-family:"Raleway",Arial,sans-serif;
       display:block;
 }
 .form label{
-             margin:10px;
-             font-weight:600;
-             width:100%;
-
+       margin:10px;
+       font-weight:600;
+       width:100%;
 }
 .name input,
 .Email input,
@@ -164,3 +170,58 @@ font-family:"Raleway",Arial,sans-serif;
 	margin-right: auto;
     margin-left: auto;
 }
+                           /*  CSS END  */
+                    /*  Mediaqueries Start  */
+          /* Mediaqueries for low Resolution Tablets, Mobiles */
+   
+   /* 
+      ##Device = Low Resolution Tablets, Mobiles (Landscape)
+      ##Screen = B/w 481px to 767px:
+*/
+@media (min-width:100px) and (max-width:600px) {
+         .conatiner,.photo,.streetart,.streetart3,.streetart2,.streetart4,.streetart5{
+         	width:100%;
+         }
+         .boy{
+         	width:55%;
+         }
+         .center,.mid{
+            width:100%;
+           	text-align:center;
+        }
+}
+          /* Mediaqueries for iPads,Tablets */
+
+     /*  ##Device = Tablets, iPads 
+         ##Screen = B/w 768px to 1024px:
+*/
+@media (min-width:601px) and (max-width: 1024px) {
+     .container{
+     	width:100%;
+     }
+     .center,.mid{
+     	text-align:center;
+      width:100%;
+ }
+     .boy{
+     	width:31%;
+     }
+   }
+         /*  Mediaqueries for Laptops,Desktops  */ 
+  /* 
+         ##Device = Laptops, Desktops
+         ##Screen = B/w 1025px to 1280px:
+*/
+@media (min-width:1025px) and (max-width:1280px){
+     .container{
+        width:100%;
+      }
+      .center,.mid{
+      text-align:center;
+      width:100%;
+ }
+     .boy{
+      width:28%;
+     }
+   }
+         /*  Mediaqueries END  */
