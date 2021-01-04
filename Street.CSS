@@ -1,7 +1,7 @@
 body{
-font-family:"Raleway",Arial,sans-serif;
-   margin:0px;
-   padding-top:0px;
+ font-family:"Raleway",Arial,sans-serif;
+ margin:0px;
+ padding:0px;
 }
 .top{
 	padding-top:20px;
@@ -11,7 +11,7 @@ font-family:"Raleway",Arial,sans-serif;
 	width:100%;
 }
 .right{
-	width:25%;
+	width:7%;
 	font-size:24px;
 	background-color:white;
 	color:#000;
@@ -19,9 +19,8 @@ font-family:"Raleway",Arial,sans-serif;
 	cursor:pointer;
 	display:block;
 	border:none;
-	padding:15px;
-    text-decoration:none;
-
+	padding:15px;    
+  text-decoration:none;
 }
 
 .left{
@@ -34,16 +33,15 @@ font-family:"Raleway",Arial,sans-serif;
 	cursor:pointer;
 	display:block;
 	border:none;
-/*	opacity:0.8;
-*/	text-decoration:none;
+	text-decoration:none;
 }
 .left:hover{
 	background-color:lightgrey;
 	color:black;
 }
 .right:hover{
-     background-color:lightgrey;
-     color:black;
+ background-color:lightgrey;
+ color:black;
 }
 .photo,
 .picture,
@@ -62,31 +60,31 @@ font-family:"Raleway",Arial,sans-serif;
 .streetart,
 .streetart2,
 .streetart5{
-	float:left;
+ float:left;
 }
 .streetart3,
 .streetart4{
-	float:right;
+ float:right;
 }
 .center{
-       font-size:29px;
-       width:100%;
-       position:relative;
-       top:70px;
-       padding-bottom:50px;
-       text-align:center;
-       text-decoration:none;
-       border:none;
+ font-size:29px;
+ width:100%;
+ position:relative;
+ top:70px;
+ padding-bottom:50px;
+ text-align:center;
+ text-decoration:none;
+ border:none;
  }   
 .boy{
-    margin:auto;
-    display:block;
-	width:23%;
-	padding-bottom:20px;
-	padding-top:70px;
+ margin:auto;
+ display:block;
+ width:23%;
+ padding-bottom:20px;
+ padding-top:70px;
 }
 .ABOUT{
-  background-color:#f1f1f1;
+ background-color:#f1f1f1;
 }
 .para{
 	padding-top:40px;
@@ -98,77 +96,77 @@ font-family:"Raleway",Arial,sans-serif;
 	color:#000000;
 }
 .mid{
-	background-color:#f1f1f1;
-  	width:100%;
-  	padding-top: 30px;
+ background-color:#f1f1f1;
+ width:100%;
+ padding-top: 30px;
   }
 .me{
-	text-align:center;
-	color:#E91E63;
-	padding-bottom:20px;
-	font-size:18px;
-	padding-top:30px;
+ text-align:center;
+ color:#E91E63;
+ padding-bottom:20px;
+ font-size:18px;
+ padding-top:30px;
 }
 .name,
 .Email,
 .Message,
 .end{
-	text-align:center;
+ text-align:center;
 }
 .end{
-     padding-bottom:5%;
-     opacity:0.6;
+ padding-bottom:5%;
+ opacity:0.6;
 }
 .end a{
-   color:black;
-   padding-top:30px;
+ color:black;
+ padding-top:30px;
 }
 .end :hover{
-     color:green;
+ color:green;
 }
 .Send {
-	padding-bottom:20px; 
-    color:black;
-    padding:10px;
-    cursor:pointer;
-    margin-right:auto;
-    margin-left:auto;
-    display:block;
-    width:57.8%;
-    background-color:black;
-    color:white;
-    border:none;
-    opacity:0.7;
-    font-size:16px;
-    margin-top:10px;
+ padding-bottom:20px; 
+ color:black;
+ padding:10px;
+ cursor:pointer;
+ margin-right:auto;
+ margin-left:auto;
+ display:block;
+ width:57.8%;
+ background-color:black;
+ color:white;
+ border:none;
+ opacity:0.7;
+ font-size:16px;
+ margin-top:10px;
 }
 .Send:hover{ 
-    background-color:darkgrey;
-    color:#000;
+ background-color:darkgrey;
+ color:#000;
 }
 .name,
 .Email,
 .Message{
-      margin-left:auto;
-      margin-right:auto;
-      width:57.8%;
-      padding:8px;
-      font-size:15px;
-      display:block;
+ margin-left:auto;
+ margin-right:auto;
+ width:57.8%;
+ padding:8px;
+ font-size:15px;
+ display:block;
 }
 .form label{
-       margin:10px;
-       font-weight:600;
-       width:100%;
+ margin:10px;
+ font-weight:600;
+ width:100%;
 }
 .name input,
 .Email input,
 .Message input{
-	margin-top:5px;
-	padding:8px;
-	width:-webkit-fill-available;
-	margin-right: auto;
-    margin-left: auto;
+ margin-top:5px;
+ padding:8px;
+ width:-webkit-fill-available;
+ margin-right: auto;
+ margin-left: auto;
 }
                            /*  CSS END  */
                     /*  Mediaqueries Start  */
@@ -186,8 +184,8 @@ font-family:"Raleway",Arial,sans-serif;
          	width:55%;
          }
          .center,.mid{
-            width:100%;
-           	text-align:center;
+          width:100%;
+          text-align:center;
         }
 }
           /* Mediaqueries for iPads,Tablets */
